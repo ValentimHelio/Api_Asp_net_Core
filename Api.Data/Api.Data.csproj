@@ -21,9 +21,4 @@
     <ProjectReference Include="..\Api.Domain\Api.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Mapping\" />
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
 </Project>
