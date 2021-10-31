@@ -1,7 +1,7 @@
-﻿using Api.Domain.Entities;
+﻿using System;
+using Api.Domain.Entities;
 using Api.Domain.Interfaces;
 using Api.Domain.Interfaces.Services.User;
-using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
