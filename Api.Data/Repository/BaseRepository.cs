@@ -3,7 +3,6 @@ using Api.Domain.Entities;
 using Api.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -24,7 +23,7 @@ namespace Api.Data.Repository
             try
             {
                 var result = await _dataSet.SingleOrDefaultAsync(p => p.Id == id);
-                if (result == null) 
+                if (result == null)
                     return false;
 
                 _dataSet.Remove(result);
